@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en,vn">
+<head>
+    <meta charset="UTF-8">
+    <title>File Transfer</title>
+</head>
+<body>
+    <h1>File Transfer</h1>
+    
+    <h2>Upload a File</h2>
+    <form action="/upload" method="POST" enctype="multipart/form-data">
+        <input type="file" name="file" accept=".txt, .pdf, .png, .jpg, .jpeg, .gif">
+        <input type="submit" value="Upload">
+    </form>
+
+    <h2>Download a File</h2>
+    <a href="/download/sample.txt">Download Sample File</a>
+</body>
+</html>
